@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+body {
+    background: rgb(164, 196, 196);
+}
+
+.titulo-cabecalho {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 1300px;
+    width: 1000px; 
+    border: 5px solid;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.imagem-principal {
+    height: 1300px;
+    width: 1000px;
+}
+
+.box-1 {
+    display: flex;
+    margin: 10px 20px;
+    flex-direction: column;
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    border: 6px solid;
+    border-color: red;
+    border-radius: 6px;
+}
+
+.box-2 {
+    display: flex;
+    margin: 10px 570px;
+    flex-direction: column;
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    border: 6px solid;
+    border-color: red;
+    border-radius: 6px;
+}
+
+.box-3 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 450px 300px;
+    width: 400px;
+    height: 350px;
+    border: 6px solid;
+    border-color: red;
+    border-radius: 6px;
+}
+
+.box-4 {
+    display: flex;
+    flex-direction: column;
+    margin: 920px 20px;
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    border: 6px solid;
+    border-color: red;
+    border-radius: 6px;
+}
+
+.box-5 {
+    display: flex;
+    flex-direction: column;
+    margin: 920px 570px;
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    border: 6px solid;
+    border-color: red;
+    border-radius: 6px;
+}
+
+.imagens-blocos {
+    width: 100%;
+}
+
+#text-bloco {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #FFF2E7;
+    margin: 0 auto;
+    margin-top: 10px;
+}
